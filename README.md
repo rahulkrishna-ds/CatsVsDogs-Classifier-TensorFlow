@@ -39,5 +39,5 @@ Here I am using transfer learning procedure to get good accuracy for my model
 
 # Conclusion:
 
-Cats vs Dogs classifier with 93% accuracy on Training data.
+Cats vs Dogs classifier with 95% accuracy on Training data.
 
