@@ -22,6 +22,7 @@ Data is downloaded from Kaggle.
 # Approach:
 
 Here I am using transfer learning procedure to get good accuracy for my model
+
 1.)	 Take weights of the inception model up to ‘mixed7’ layer and make them untrainable.
 
 2.)	 Next flatten the weights.
