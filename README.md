@@ -1,11 +1,11 @@
 # CATS VS DOGS CLASSIFIER USING TENSORFLOW:
 
-	Here I have used Convolutional neural networks to implement cats vs dogs classifier. This entire project is done using keras in TensorFlow. 
+Here I have used Convolutional neural networks to implement cats vs dogs classifier. This entire project is done using keras in TensorFlow. 
 
 Special thanks to: Laurence Moroney, Andrew ng. 
  
 
-Dependencies:
+# Dependencies:
 
 1.	TensorFlow
 
@@ -14,12 +14,12 @@ Dependencies:
 3.	Numpy
 
 
-Dataset:
+# Dataset:
 
 Data is downloaded from Kaggle.
 !kaggle datasets download -d chetankv/dogs-cats-images
 
-Approach:
+# Approach:
 
 Here I am using transfer learning procedure to get good accuracy for my model
 1.)	 Take weights of the inception model up to ‘mixed7’ layer and make them untrainable.
@@ -32,6 +32,7 @@ Here I am using transfer learning procedure to get good accuracy for my model
 
 5.)	Dense layers with 1 node and with sigmoid activation function.                  
 
-Conclusion:
+# Conclusion:
+
 Cats vs Dogs classifier with 93% accuracy on Training data.
 
