@@ -16,7 +16,8 @@ Special thanks to: Laurence Moroney, Andrew ng.
 
 # Dataset:
 
-Data is downloaded from Kaggle.
+Data is downloaded from Kaggle. 
+
 !kaggle datasets download -d chetankv/dogs-cats-images
 
 # Approach:
